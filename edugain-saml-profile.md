@@ -105,7 +105,7 @@ If an <mdui:Logo> element is present, the logo MUST be expressed as a Data URI (
 
 ## 4. SAML Metadata Signing 
 
-In order to assure SAML Metadata integrity, each federation aggregate MUST be signed as specified in Metadata for the OASIS Security Assertion Markup Language (SAML) V2.0 [SAMLMeta]. This signature, made with a key matching the one supplied to the eduGAIN OT, is the only element on which trust for SAML Metadata exchange is based within eduGAIN. In particular, the eduGAIN aggregator does not use trust that might be derived from an https endpoint.
+In order to assure SAML Metadata integrity, each federation aggregate produced for aggregation in eduGAIN MUST be signed as specified in Metadata for the OASIS Security Assertion Markup Language (SAML) V2.0 [SAMLMeta]. This signature, made with a key matching the one supplied to the eduGAIN OT, is the only element on which trust for SAML Metadata exchange is based within eduGAIN. In particular, the eduGAIN aggregator does not use trust that might be derived from an https endpoint.
 
 SAML Metadata signature verification is against the public key alone. Commonly the public key for the channel is supplied in the form of an X.509 certificate, however aspects of the certificate such as its expiry date do not form part of signature verification. In particular an expired certificate will still be used for verification purposes.
 
