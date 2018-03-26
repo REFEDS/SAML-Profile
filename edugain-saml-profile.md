@@ -121,7 +121,7 @@ The SAML Metadata signature MUST meet the following requirements:
 
 ## 5. SAML Metadata Publication
 
-The eduGAIN Downstream SAML Metadata contains all entities published in eduGAIN, and all entity information provided to eduGAIN will be made publicly available.  It is generated and published by the eduGAIN Metadata Distribution Service (MDS).  Federations MUST republish the eduGAIN SAML Metadata as a signed SAML Metadata feed to its members and MUST NOT recommend direct consumption of SAML Metadata from the MDS or any other sources.  Federations MAY filter out certain entities for technical or practical reasons.  It is expected that entities will have access to and consume eduGAIN SAML Metadata from their Federation Operator with minimal administrative involvement. 
+The eduGAIN Downstream SAML Metadata contains all entities published in eduGAIN, and all entity information provided to eduGAIN will be made publicly available.  It is generated and published by the eduGAIN Metadata Distribution Service (MDS).  Federations MUST provide their members with trustworthy SAML Metadata about eduGAIN Entities, signed with their own signing key and MUST NOT recommend direct consumption of SAML Metadata from the MDS or any other sources.  Federations MAY filter out certain entities for technical or practical reasons.  It is expected that entities will have access to and consume eduGAIN SAML Metadata from their Federation Operator with minimal administrative involvement. 
 
 ## 6. Participant Federation Requirements
 
