@@ -72,10 +72,10 @@ SAML Metadata Producers MUST adhere to the following requirements when producing
 
 The references defined in this section use the following namespaces:
 
-* urn:oasis:names:tc:SAML:2.0:assertion - The SAML V2.0 Assertion namespace defined in the SAML V2.0 Core specification [SAMLCore].
-* urn:oasis:names:tc:SAML:2.0:metadata - The SAML V2.0 metadata namespace defined in  Metadata for the OASIS Security Assertion Markup Language (SAML) V2.0 [SAMLMeta].
-* urn:oasis:names:tc:SAML:metadata:rpi - The namespace defined in the SAML V2.0 Metadata Extensions for Registration and Publication Information [MDRPI].
-* urn:oasis:names:tc:SAML:metadata:ui - The namespace defined in SAML V2.0 Metadata Extensions for Login and Discovery User Interface [MDUI].
+* saml:urn:oasis:names:tc:SAML:2.0:assertion - The SAML V2.0 Assertion namespace defined in the SAML V2.0 Core specification [SAMLCore].
+* md:urn:oasis:names:tc:SAML:2.0:metadata - The SAML V2.0 metadata namespace defined in  Metadata for the OASIS Security Assertion Markup Language (SAML) V2.0 [SAMLMeta].
+* mdrpi:urn:oasis:names:tc:SAML:metadata:rpi - The namespace defined in the SAML V2.0 Metadata Extensions for Registration and Publication Information [MDRPI].
+* mdui:urn:oasis:names:tc:SAML:metadata:ui - The namespace defined in SAML V2.0 Metadata Extensions for Login and Discovery User Interface [MDUI].
 
 The SAML Metadata root element MUST contain:
 
