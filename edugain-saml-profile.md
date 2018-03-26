@@ -147,23 +147,23 @@ eduGAIN supports a series of Best Current Practice (BCP) documents.  All such do
 
 ## 8. References
 
-[eduGAIN-CONST] eduGAIN Constitution: http://edugain.org/policy.
-[eduGAIN-DOC] 	eduGAIN Policy and Technical Documents: http://edugain.org/policy.
-[eduGAIN-OP] 	eduGAIN Operational Practice Statement: https://technical.edugain.org/documents.
- [eduGAIN-BCP] 	eduGAIN Best Current Practice: https://technical.edugain.org/documents.
-[eduGAIN-ED] 	eduGAIN Entities Database: https://technical.edugain.org/entities.
-[eduGAIN-FEDS] 	eduGAIN Membership Status webpage: https://technical.edugain.org/status.
-[eduGAIN-MAPS] 	eduGAIN Metadata Aggregation Practice Statement:  https://technical.edugain.org/documents.
-[eduGAIN-MDS]     eduGAIN Metadata Distribution Service: http://mds.edugain.org. 
-[eduGAIN-VAL] 	eduGAIN Metadata Validator: https://validator.edugain.org/.
-[MDRPI]	SAML V2.0 Metadata Extensions for Registration and Publication Information Version 1.0:
+* [eduGAIN-CONST] eduGAIN Constitution: http://edugain.org/policy.  
+* [eduGAIN-DOC] eduGAIN Policy and Technical Documents: http://edugain.org/policy.  
+* [eduGAIN-OP] eduGAIN Operational Practice Statement: https://technical.edugain.org/documents.  
+* [eduGAIN-BCP] eduGAIN Best Current Practice: https://technical.edugain.org/documents.  
+* [eduGAIN-ED] eduGAIN Entities Database: https://technical.edugain.org/entities.  
+* [eduGAIN-FEDS] eduGAIN Membership Status webpage: https://technical.edugain.org/status.  
+* [eduGAIN-MAPS] eduGAIN Metadata Aggregation Practice Statement:  https://technical.edugain.org/documents.  
+* [eduGAIN-MDS] eduGAIN Metadata Distribution Service: http://mds.edugain.org.  
+* [eduGAIN-VAL] eduGAIN Metadata Validator: https://validator.edugain.org/.  
+* [MDRPI] SAML V2.0 Metadata Extensions for Registration and Publication Information Version 1.0:
 http://docs.oasis-open.org/security/saml/Post2.0/saml-metadata-rpi/v1.0/saml-metadata-rpi-v1.0.pdf.
-[MDUI]	SAML V2.0 Metadata Extensions for Login and Discovery User Interface Version 1.0: http://docs.oasis-open.org/security/saml/Post2.0/sstc-saml-metadata-ui/v1.0/sstc-saml-metadata-ui-v1.0.pdf. 
-[REFEDS-MRPS]     TBD – add eduGAIN version.
-[RFC2119] 	Bradner, S., “Key words for use in RFCs to Indicate Requirement Levels”, BCP 14, RFC 2119, March 1997: https://www.ietf.org/rfc/rfc2119.txt.
-[SAMLCore]	Assertions and Protocols for the OASIS Security Assertion Markup Language (SAML) V2.0: http://docs.oasis-open.org/security/saml/v2.0/saml-core-2.0-os.pdf. 	
-[SAMLMeta] 	Metadata for the OASIS Security Assertion Markup Language (SAML) V2.0:
+* [MDUI] SAML V2.0 Metadata Extensions for Login and Discovery User Interface Version 1.0: http://docs.oasis-open.org/security/saml/Post2.0/sstc-saml-metadata-ui/v1.0/sstc-saml-metadata-ui-v1.0.pdf. 
+* [REFEDS-MRPS] TBD – add eduGAIN version.
+* [RFC2119] Bradner, S., “Key words for use in RFCs to Indicate Requirement Levels”, BCP 14, RFC 2119, March 1997: https://www.ietf.org/rfc/rfc2119.txt.
+* [SAMLCore] Assertions and Protocols for the OASIS Security Assertion Markup Language (SAML) V2.0: http://docs.oasis-open.org/security/saml/v2.0/saml-core-2.0-os.pdf. 	
+* [SAMLMeta] Metadata for the OASIS Security Assertion Markup Language (SAML) V2.0:
 http://docs.oasis-open.org/security/saml/v2.0/saml-metadata-2.0-os.pdf.
-[SAMLMetaErrata]	http://www.oasis-open.org/committees/download.php/35391/sstc-saml-metadata-errata-2.0-wd-04-diff.pdf.
-[SAMLMetaIoP]	SAML V2.0 Metadata Interoperability Profile Version 1.0: http://docs.oasis-open.org/security/saml/Post2.0/sstc-metadata-iop-cs-01.pdf.
+* [SAMLMetaErrata] http://www.oasis-open.org/committees/download.php/35391/sstc-saml-metadata-errata-2.0-wd-04-diff.pdf.
+* [SAMLMetaIoP]	SAML V2.0 Metadata Interoperability Profile Version 1.0: http://docs.oasis-open.org/security/saml/Post2.0/sstc-metadata-iop-cs-01.pdf.
 
