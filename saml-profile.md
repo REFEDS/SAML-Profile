@@ -4,11 +4,12 @@
 13 March 2018
 
 
-| Version| Date      | Description of Change  | Person |
-| 0.1	| 06-07-2017 | Draft version	      | N Harris |
-| 0.2	| 13-07-2017 | Restructuring, references, layout harmonization | L Hämmerle |
-| 0.3	| 08-11-2017 | Incorporating feedback from first consultation | N Harris |
-| 0.4	| 13-02-2018 | Incorporating feedback from the second consultation | N Harris |
+| Version | Date       | Description of Change  | Person |
+| ------- | ---------  | ---------------------  | ------ |  
+| 0.1     | 06-07-2017 | Draft version	        | N Harris |
+| 0.2	  | 13-07-2017 | Restructuring, references, layout harmonization | L Hämmerle |
+| 0.3	  | 08-11-2017 | Incorporating feedback from first consultation | N Harris |
+| 0.4	  | 13-02-2018 | Incorporating feedback from the second consultation | N Harris |
 			
  
 ## 1. Introduction
@@ -27,6 +28,7 @@ For entities within Federations, eduGAIN supports a series of Best Current Pract
 
 
 | Definition | Description |
+| ---------- | ----------- |
 | AAI  | Authentication and authorisation infrastructure. |
 | eduGAIN | eduGAIN enables the trustworthy exchange of information related to identity, authentication and authorisation (AAI) via its Member Federations by offering a policy framework, consolidated metadata and shared governance for the eduGAIN service. |
 | eduGAIN Member Federation | A Federation which has met the joining requirements for eduGAIN as defined in section 3.2 of the eduGAIN Constitution [eduGAIN-CONST]. |
