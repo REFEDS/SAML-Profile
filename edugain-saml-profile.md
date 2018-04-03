@@ -152,7 +152,7 @@ For more information on how validations and warnings are supported by the eduGAI
 * [eduGAIN-VAL] eduGAIN Metadata Validator: https://validator.edugain.org/
 * [MDRPI] SAML V2.0 Metadata Extensions for Registration and Publication Information Version 1.0: http://docs.oasis-open.org/security/saml/Post2.0/saml-metadata-rpi/v1.0/saml-metadata-rpi-v1.0.pdf
 * [MDUI] SAML V2.0 Metadata Extensions for Login and Discovery User Interface Version 1.0: http://docs.oasis-open.org/security/saml/Post2.0/sstc-saml-metadata-ui/v1.0/sstc-saml-metadata-ui-v1.0.pdf
-* [REFEDS-MRPS] TBD – add eduGAIN version.
+* [REFEDS-MRPS] REFEDS Metadata Registration Practice Statement Template: https://github.com/REFEDS/MRPS
 * [RFC2119] Bradner, S., “Key words for use in RFCs to Indicate Requirement Levels”, BCP 14, RFC 2119, March 1997: https://www.ietf.org/rfc/rfc2119.txt
 * [SAMLCore] Assertions and Protocols for the OASIS Security Assertion Markup Language (SAML) V2.0: http://docs.oasis-open.org/security/saml/v2.0/saml-core-2.0-os.pdf
 * [SAMLMeta] Metadata for the OASIS Security Assertion Markup Language (SAML) V2.0: http://docs.oasis-open.org/security/saml/v2.0/saml-metadata-2.0-os.pdf
