@@ -1,7 +1,7 @@
 # eduGAIN Policy Framework
 ## SAML Profile
 
-13 March 2018
+03 April 2018
 
 | Version | Date       | Description of Change  | Person |
 | ------- | ---------  | ---------------------  | ------ |
@@ -9,6 +9,7 @@
 | 0.2     | 13-07-2017 | Restructuring, references, layout harmonization | L Hämmerle |
 | 0.3     | 08-11-2017 | Incorporating feedback from first consultation | N Harris |
 | 0.4     | 13-02-2018 | Incorporating feedback from the second consultation | N Harris |
+| 0.5     | 03-04-2018 | Fixes to xml namespace and grammar fixes | N Harris and P Schober |
 
 ## 1. Introduction
 
