@@ -1,15 +1,13 @@
 # eduGAIN Policy Framework
 ## SAML Profile
 
-03 April 2018
-
 | Version | Date       | Description of Change  | Person |
 | ------- | ---------  | ---------------------  | ------ |
-| 0.1     | 06-07-2017 | Draft version          | N Harris |
-| 0.2     | 13-07-2017 | Restructuring, references, layout harmonization | L Hämmerle |
-| 0.3     | 08-11-2017 | Incorporating feedback from first consultation | N Harris |
-| 0.4     | 13-02-2018 | Incorporating feedback from the second consultation | N Harris |
-| 0.5     | 03-04-2018 | Fixes to xml namespace and grammar fixes | N Harris and P Schober |
+| 0.1     | 2017-07-06 | Draft version          | N Harris |
+| 0.2     | 2017-07-13 | Restructuring, references, layout harmonization | L Hämmerle |
+| 0.3     | 2017-11-08 | Incorporating feedback from first consultation | N Harris |
+| 0.4     | 2018-02-13 | Incorporating feedback from the second consultation | N Harris |
+| 0.5     | 2018-04-03 | Fixes to xml namespace and grammar fixes | N Harris and P Schober |
 
 ## 1. Introduction
 
@@ -161,4 +159,3 @@ For more information on how validations and warnings are supported by the eduGAI
 * [SAMLMetaErrata] http://www.oasis-open.org/committees/download.php/35391/sstc-saml-metadata-errata-2.0-wd-04-diff.pdf
 * [SAMLMetaIoP] SAML V2.0 Metadata Interoperability Profile Version 1.0: http://docs.oasis-open.org/security/saml/Post2.0/sstc-metadata-iop-cs-01.pdf
 * [ShibMD] ShibMetaExt V1.0: https://wiki.shibboleth.net/confluence/display/SC/ShibMetaExt+V1.0
-
