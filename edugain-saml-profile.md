@@ -72,10 +72,10 @@ SAML Metadata Producers MUST adhere to the following requirements when producing
 
 The references defined in this section use the following namespaces:
 
-* urn:oasis:names:tc:SAML:2.0:assertion - The SAML V2.0 Assertion namespace defined in the SAML V2.0 Core specification [SAMLCore].
-* urn:oasis:names:tc:SAML:2.0:metadata - The SAML V2.0 metadata namespace defined in  Metadata for the OASIS Security Assertion Markup Language (SAML) V2.0 [SAMLMeta].
-* urn:oasis:names:tc:SAML:metadata:rpi - The namespace defined in the SAML V2.0 Metadata Extensions for Registration and Publication Information [MDRPI].
-* urn:oasis:names:tc:SAML:metadata:ui - The namespace defined in SAML V2.0 Metadata Extensions for Login and Discovery User Interface [MDUI].
+* saml:urn:oasis:names:tc:SAML:2.0:assertion - The SAML V2.0 Assertion namespace defined in the SAML V2.0 Core specification [SAMLCore].
+* md:urn:oasis:names:tc:SAML:2.0:metadata - The SAML V2.0 metadata namespace defined in  Metadata for the OASIS Security Assertion Markup Language (SAML) V2.0 [SAMLMeta].
+* mdrpi:urn:oasis:names:tc:SAML:metadata:rpi - The namespace defined in the SAML V2.0 Metadata Extensions for Registration and Publication Information [MDRPI].
+* mdui:urn:oasis:names:tc:SAML:metadata:ui - The namespace defined in SAML V2.0 Metadata Extensions for Login and Discovery User Interface [MDUI].
 
 The SAML Metadata root element MUST contain:
 
@@ -105,23 +105,23 @@ If an <mdui:Logo> element is present, the logo MUST be expressed as a Data URI (
 
 ## 4. SAML Metadata Signing 
 
-In order to assure SAML Metadata integrity, each federation aggregate MUST be signed as specified in Metadata for the OASIS Security Assertion Markup Language (SAML) V2.0 [SAMLMeta]. This signature, made with a key matching the one supplied to the eduGAIN OT, is the only element on which trust for SAML Metadata exchange is based within eduGAIN. In particular, the eduGAIN aggregator does not use trust that might be derived from an https endpoint.
+The eduGAIN Metadata Distribution Service conforms to the rules for Metadata Consumer and Metadata Producers as stated in SAML V2.0 Metadata Interoperability Profile Version 1.0 [MetaIOP]. Further information is available in the eduGAIN Metadata Aggregation Practice Statement [eduGAIN-MAPS].
 
-SAML Metadata signature verification is against the public key alone. Commonly the public key for the channel is supplied in the form of an X.509 certificate, however aspects of the certificate such as its expiry date do not form part of signature verification. In particular an expired certificate will still be used for verification purposes.
+In order to assure SAML Metadata integrity, each federation aggregate produced for aggregation in eduGAIN MUST be signed as specified in Metadata for the OASIS Security Assertion Markup Language (SAML) V2.0 [SAMLMeta].
 
-The SAML Metadata signature MUST meet the following requirements: 
+SAML Metadata Producers MUST ensure that their SAML Metadata signature meets the following requirements: 
 
 * The signature is made using an explicit ID reference, not an empty reference.
 * The signature reference refers to the document element.
 * The signature's digest algorithm is at least as strong as SHA-256, and does not use MD5 or SHA-1.
 * The signature's signature method is RSA with an associated digest at least as strong as SHA-256 and does not use MD5 or SHA-1.
 * The signature's transforms contain only these permissible values:
-* Enveloped signature.
-* Exclusive canonicalisation with or without comments.
+** Enveloped signature.
+** Exclusive canonicalisation with or without comments.
 
 ## 5. SAML Metadata Publication
 
-The eduGAIN Downstream SAML Metadata contains all entities published in eduGAIN, and all entity information provided to eduGAIN will be made publicly available.  It is generated and published by the eduGAIN Metadata Distribution Service (MDS).  Federations MUST republish the eduGAIN SAML Metadata as a signed SAML Metadata feed to its members and MUST NOT recommend direct consumption of SAML Metadata from the MDS or any other sources.  Federations MAY filter out certain entities for technical or practical reasons.  It is expected that entities will have access to and consume eduGAIN SAML Metadata from their Federation Operator with minimal administrative involvement. 
+The eduGAIN Downstream SAML Metadata contains all entities published in eduGAIN, and all entity information provided to eduGAIN will be made publicly available.  It is generated and published by the eduGAIN Metadata Distribution Service (MDS).  Federations MUST provide their members with trustworthy SAML Metadata about eduGAIN Entities, signed with their own signing key and MUST NOT recommend direct consumption of SAML Metadata from the MDS or any other sources.  Federations MAY filter out certain entities for technical or practical reasons.  It is expected that entities will have access to and consume eduGAIN SAML Metadata from their Federation Operator with minimal administrative involvement. 
 
 ## 6. Participant Federation Requirements
 
