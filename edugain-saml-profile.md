@@ -105,6 +105,7 @@ In order to assure SAML Metadata integrity, each federation aggregate produced f
 
 SAML Metadata Producers MUST ensure that their SAML Metadata signature meets the following requirements:
 
+* Public keys used for signing are at least 2048 bits in length.  At least 3072 bits is RECOMMENDED for new deployments. EC public keys MUST be at least 256 bits in length.
 * The signature is made using an explicit ID reference, not an empty reference.
 * The signature reference refers to the document element.
 * The signature's digest algorithm is at least as strong as SHA-256, and does not use MD5 or SHA-1.
