@@ -42,7 +42,7 @@ For entities within Federations, eduGAIN supports a series of Best Current Pract
 | Metadata Distribution Service (MDS) | The eduGAIN Metadata Service (MDS) aggregates eduGAIN upstream SAML2 metadata of eduGAIN Members. It verifies and validates it before it is signed and republished [eduGAIN-MDS]. |
 Metadata Registration Practice Statement (MRPS) | Document that describes the rules and procedures used for registering Entities which get exposed to eduGAIN. |
 | Participant Federation | A Member Federation that is actively participating in eduGAIN having met the requirements defined in section 3.3 of the eduGAIN Constitution [eduGAIN-CONST]. |
-| SAML Metadata | An XML document describing SAML Entities, both in technical as well as non-technical terms.  Valid SAML Metadata MUST meet the requirements defined in the SAML Metadata Specification [SAMLMeta] including [SAMLMetaErrata]. |
+| SAML Metadata | An XML document describing SAML Entities, both in technical as well as non-technical terms.  Valid SAML Metadata MUST meet the requirements defined in the SAML Metadata Specification [SAMLMeta] including known errata [SAMLMetaErrata]. |
 | SAML Metadata Consumer | An entity or organisation that downloads, processes and uses SAML V2.0 Metadata. |
 | SAML Metadata Producers | An organisation that produces and publishes SAML V2.0 Metadata. An XML document describing SAML Entities. |
 | SAML V2.0 | Version 2.0 of the Security Assertion Markup Language specification. |
@@ -53,7 +53,7 @@ Metadata Registration Practice Statement (MRPS) | Document that describes the ru
 
 ### 1.3 Notation
 
-The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED", "MAY", and "OPTIONAL" in this document are to be interpreted as described in [RFC2119].
+The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED", "MAY", and "OPTIONAL" in this document are to be interpreted as described in RFC2119 [RFC2119].
 
 The XML elements (e.g. `<Element>`) and attributes (e.g. `attribute`) in this document use the following XML Namespace prefixes and respective namespaces:
 
@@ -95,7 +95,7 @@ The `<md:EntityDescriptor>` SHOULD contain:
 * `<mdrpi:RegistrationPolicy>`.
 * If the `<md:EntityDescriptor>` contains `<md:IDPSSODescriptor>` it SHOULD contain an `<mdui:DisplayName>` element and `<mdui:Logo>` element.
 * If the `<md:EntityDescriptor>` contains `<md:SPSSODescriptor>` it SHOULD contain an `<mdui:DisplayName>` element, `<mdui:Logo>` element and an `<mdui:Description>` element with a value in English. Where the service supports other languages, these values SHOULD be supported for those languages.
-* If an `<mdui:Logo>` element is present, the logo MUST be expressed as a Data URI (embedded logo) or an https URL.  URLs MUST be publicly accessible.
+* If an `<mdui:Logo>` element is present, the logo MUST be expressed as a Data URI (embedded logo) or an https URL.  URLs used for this element MUST be publicly accessible.
 
 ## 4. SAML Metadata Signing
 
@@ -130,10 +130,10 @@ To be accepted as a SAML Metadata Producer within eduGAIN, Participant Federatio
 
 ## 7. Adherence
 
-A SAML Metadata Producer conforms to this profile if it conforms to:
+A SAML Metadata Producer conforms to this profile if it conforms to all of the following requirements:
 
 * SAML V2.0 Metadata Interoperability Profile [SAMLMetaIoP].
-* Additional eduGAIN SAML Metadata Producer Requirements described in this document.
+* Additional eduGAIN SAML Metadata Producer Requirements as described in this document.
 
 Adherence to this profile is monitored by the eduGAIN Metadata Validator [eduGAIN-VAL].  SAML Metadata Producers SHOULD use the validator to verify their SAML Metadata compliance on a regular basis.
 
