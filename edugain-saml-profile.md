@@ -130,11 +130,6 @@ To be accepted as a SAML Metadata Producer within eduGAIN, Participant Federatio
 
 ## 7. Adherence
 
-A SAML Metadata Producer conforms to this profile if it conforms to all of the following requirements:
-
-* SAML V2.0 Metadata Interoperability Profile [SAMLMetaIoP].
-* Additional eduGAIN SAML Metadata Producer Requirements as described in this document.
-
 Adherence to this profile is monitored by the eduGAIN Metadata Validator [eduGAIN-VAL].  SAML Metadata Producers SHOULD use the validator to verify their SAML Metadata compliance on a regular basis.
 
 eduGAIN supports a series of Best Current Practice (BCP) documents.  All such documents are approved by the eduGAIN Steering Group before being published on the eduGAIN website.  SAML Metadata Producers SHOULD support eduGAIN BCP. Entity adherence to best current practice is monitored by the eduGAIN Operational Team via the eduGAIN Entities Database [eduGAIN-ED].  Federation Operators SHOULD monitor the eduGAIN Entities Database on a regular basis.
