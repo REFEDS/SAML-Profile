@@ -126,7 +126,7 @@ To be accepted as a SAML Metadata Producer within eduGAIN, Participant Federatio
 * Produce a SAML Metadata export set that complies with the requirements detailed in this document.
 * Register a URL to the SAML Metadata export set with the eduGAIN OT.
 * Register and validate a signing certificate for the SAML Metadata export set with the eduGAIN OT.
-* Register a SAML RegistrationAuthority with the eduGAIN OT.
+* Register a `mdrpi:registrationAuthority` with the eduGAIN OT.
 
 ## 7. Adherence
 
