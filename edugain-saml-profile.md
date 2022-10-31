@@ -49,7 +49,6 @@ Metadata Registration Practice Statement (MRPS) | Document that describes the ru
 | Security Assertion Markup Language (SAML) | The Security Assertion Markup Language is an XML-based, open-standard data format for exchanging authentication and authorisation data between parties, in particular, between an Identity Provider and a Service Provider. |
 | Service Provider | An organisation that is responsible for offering the end user the service s/he is going to use via a federated login. |
 | Technology Profile | This document is a Technology Profile for SAML. Technology Profiles in general describe how given technologies are implemented within the eduGAIN framework. Each Technology Profile is made up of one or more documents which describe and define rules for specific trust brokers, including metadata production and aggregation and use of protocols.  Each Technology Profile is associated with an operational team responsible for the management of core trust broker infrastructure.|
-| Metadata Distribution Service (MDS) | The eduGAIN Metadata Service (MDS) aggregates eduGAIN upstream SAML2 metadata of the eduGAIN Member. It verifies and validates it before it is signed and republished [eduGAIN-MDS]. |
 
 ### 1.3 Notation
 
